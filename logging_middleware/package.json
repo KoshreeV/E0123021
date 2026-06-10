@@ -1,0 +1,9 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable structured JSON logging middleware for Express",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

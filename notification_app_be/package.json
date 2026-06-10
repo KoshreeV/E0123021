@@ -1,0 +1,19 @@
+{
+  "name": "campus-notification-service",
+  "version": "1.0.0",
+  "description": "Campus notification microservice with real-time delivery, priority inbox, and bulk sending",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "sql.js": "^1.12.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
